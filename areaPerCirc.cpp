@@ -14,5 +14,7 @@ int main() {
     area = M_PI * pow(radius, 2);
     circumference = M_PI * radius * 2;
     //displays area and circumference
-    std::cout << "The circumference of the circle is" << circumference << "m";
-    std::cout << "the area of the circle is " << area << "m²";}
+    std::cout << "The circumference of the circle is" << circumference << "m\n";
+
+    std::cout  << "The area of the circle is " << area << "m²\n";}
+
